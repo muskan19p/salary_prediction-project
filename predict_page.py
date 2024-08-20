@@ -1,5 +1,6 @@
 import streamlit  as st
-import pickle 
+from predict_page import show_predict_page
+import pickle
 import numpy as np
 
 def load_model():
