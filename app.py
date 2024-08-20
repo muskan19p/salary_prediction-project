@@ -2,6 +2,12 @@ import streamlit as st
 from predict_page import show_predict_page
 from explore_page import show_explore_page
 
+def main():
+    show_predict_page()
+
+if __name__ == "__main__":
+    main()
+
 
 page = st.sidebar.selectbox("Explore Or Predict", ("Predict","Explore"))
 

@@ -1,13 +1,12 @@
 import streamlit  as st
-from predict_page import show_predict_page
 import pickle
-import numpy as np
+import numpy as np 
 
 def load_model():
     with open('saved_steps.pkl', 'rb') as file:
         data = pickle.load(file)
     return data
-    
+
 data = load_model('data.pkl')
 
 regressor = data['model']
