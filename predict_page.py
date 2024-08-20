@@ -7,7 +7,7 @@ def load_model():
         data = pickle.load(file)
     return data
     
-data = load_model()
+data = load_model('data.pkl')
 
 regressor = data['model']
 le_country = data['le_country']
