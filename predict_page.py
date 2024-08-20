@@ -35,7 +35,7 @@ def show_predict_page():
     }
 
     education = {
-        "Less than a Bachelor",
+        "Less than a Bachelors",
         "Bachelor’s degree",
         "Master’s degree",
         "Post grad",
